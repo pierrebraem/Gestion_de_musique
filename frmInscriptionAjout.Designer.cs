@@ -79,6 +79,18 @@
             this.lblResponsablePaiement2 = new System.Windows.Forms.Label();
             this.btnResponsableLegal2 = new System.Windows.Forms.RadioButton();
             this.btnSecondParent2 = new System.Windows.Forms.RadioButton();
+            this.lblMedecin = new System.Windows.Forms.Label();
+            this.btnNouveauMedecin = new System.Windows.Forms.Button();
+            this.lblNumeroMedecin = new System.Windows.Forms.Label();
+            this.lstNumeroMedecin = new System.Windows.Forms.ComboBox();
+            this.lblNomPrenomMedecin = new System.Windows.Forms.Label();
+            this.lstNomPrenomMedecin = new System.Windows.Forms.ComboBox();
+            this.lblAdresseMedecin = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtVilleMedecin = new System.Windows.Forms.TextBox();
+            this.lblCodePostalMedecin = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblAjoutDescription
@@ -526,11 +538,123 @@
             this.btnSecondParent2.Text = "Second parent";
             this.btnSecondParent2.UseVisualStyleBackColor = true;
             // 
+            // lblMedecin
+            // 
+            this.lblMedecin.AutoSize = true;
+            this.lblMedecin.Location = new System.Drawing.Point(12, 743);
+            this.lblMedecin.Name = "lblMedecin";
+            this.lblMedecin.Size = new System.Drawing.Size(54, 13);
+            this.lblMedecin.TabIndex = 51;
+            this.lblMedecin.Text = "Médecin :";
+            // 
+            // btnNouveauMedecin
+            // 
+            this.btnNouveauMedecin.Location = new System.Drawing.Point(95, 737);
+            this.btnNouveauMedecin.Name = "btnNouveauMedecin";
+            this.btnNouveauMedecin.Size = new System.Drawing.Size(76, 24);
+            this.btnNouveauMedecin.TabIndex = 52;
+            this.btnNouveauMedecin.Text = "Nouveau";
+            this.btnNouveauMedecin.UseVisualStyleBackColor = true;
+            // 
+            // lblNumeroMedecin
+            // 
+            this.lblNumeroMedecin.AutoSize = true;
+            this.lblNumeroMedecin.Location = new System.Drawing.Point(329, 743);
+            this.lblNumeroMedecin.Name = "lblNumeroMedecin";
+            this.lblNumeroMedecin.Size = new System.Drawing.Size(50, 13);
+            this.lblNumeroMedecin.TabIndex = 53;
+            this.lblNumeroMedecin.Text = "Numéro :";
+            // 
+            // lstNumeroMedecin
+            // 
+            this.lstNumeroMedecin.FormattingEnabled = true;
+            this.lstNumeroMedecin.Location = new System.Drawing.Point(404, 737);
+            this.lstNumeroMedecin.Name = "lstNumeroMedecin";
+            this.lstNumeroMedecin.Size = new System.Drawing.Size(125, 21);
+            this.lstNumeroMedecin.TabIndex = 54;
+            // 
+            // lblNomPrenomMedecin
+            // 
+            this.lblNomPrenomMedecin.AutoSize = true;
+            this.lblNomPrenomMedecin.Location = new System.Drawing.Point(12, 782);
+            this.lblNomPrenomMedecin.Name = "lblNomPrenomMedecin";
+            this.lblNomPrenomMedecin.Size = new System.Drawing.Size(73, 13);
+            this.lblNomPrenomMedecin.TabIndex = 55;
+            this.lblNomPrenomMedecin.Text = "Nom prénom :";
+            // 
+            // lstNomPrenomMedecin
+            // 
+            this.lstNomPrenomMedecin.FormattingEnabled = true;
+            this.lstNomPrenomMedecin.Location = new System.Drawing.Point(103, 779);
+            this.lstNomPrenomMedecin.Name = "lstNomPrenomMedecin";
+            this.lstNomPrenomMedecin.Size = new System.Drawing.Size(193, 21);
+            this.lstNomPrenomMedecin.TabIndex = 56;
+            // 
+            // lblAdresseMedecin
+            // 
+            this.lblAdresseMedecin.AutoSize = true;
+            this.lblAdresseMedecin.Location = new System.Drawing.Point(12, 821);
+            this.lblAdresseMedecin.Name = "lblAdresseMedecin";
+            this.lblAdresseMedecin.Size = new System.Drawing.Size(51, 13);
+            this.lblAdresseMedecin.TabIndex = 57;
+            this.lblAdresseMedecin.Text = "Adresse :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(103, 814);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(194, 20);
+            this.textBox1.TabIndex = 58;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 860);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 59;
+            this.label1.Text = "Ville : ";
+            // 
+            // txtVilleMedecin
+            // 
+            this.txtVilleMedecin.Location = new System.Drawing.Point(102, 849);
+            this.txtVilleMedecin.Name = "txtVilleMedecin";
+            this.txtVilleMedecin.Size = new System.Drawing.Size(194, 20);
+            this.txtVilleMedecin.TabIndex = 60;
+            // 
+            // lblCodePostalMedecin
+            // 
+            this.lblCodePostalMedecin.AutoSize = true;
+            this.lblCodePostalMedecin.Location = new System.Drawing.Point(330, 852);
+            this.lblCodePostalMedecin.Name = "lblCodePostalMedecin";
+            this.lblCodePostalMedecin.Size = new System.Drawing.Size(69, 13);
+            this.lblCodePostalMedecin.TabIndex = 61;
+            this.lblCodePostalMedecin.Text = "Code postal :";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(404, 849);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(123, 20);
+            this.textBox2.TabIndex = 62;
+            // 
             // frmInscriptionAjout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 753);
+            this.ClientSize = new System.Drawing.Size(800, 957);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.lblCodePostalMedecin);
+            this.Controls.Add(this.txtVilleMedecin);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblAdresseMedecin);
+            this.Controls.Add(this.lstNomPrenomMedecin);
+            this.Controls.Add(this.lblNomPrenomMedecin);
+            this.Controls.Add(this.lstNumeroMedecin);
+            this.Controls.Add(this.lblNumeroMedecin);
+            this.Controls.Add(this.btnNouveauMedecin);
+            this.Controls.Add(this.lblMedecin);
             this.Controls.Add(this.btnSecondParent2);
             this.Controls.Add(this.btnResponsableLegal2);
             this.Controls.Add(this.lblResponsablePaiement2);
@@ -642,5 +766,17 @@
         private System.Windows.Forms.Label lblResponsablePaiement2;
         private System.Windows.Forms.RadioButton btnResponsableLegal2;
         private System.Windows.Forms.RadioButton btnSecondParent2;
+        private System.Windows.Forms.Label lblMedecin;
+        private System.Windows.Forms.Button btnNouveauMedecin;
+        private System.Windows.Forms.Label lblNumeroMedecin;
+        private System.Windows.Forms.ComboBox lstNumeroMedecin;
+        private System.Windows.Forms.Label lblNomPrenomMedecin;
+        private System.Windows.Forms.ComboBox lstNomPrenomMedecin;
+        private System.Windows.Forms.Label lblAdresseMedecin;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtVilleMedecin;
+        private System.Windows.Forms.Label lblCodePostalMedecin;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
