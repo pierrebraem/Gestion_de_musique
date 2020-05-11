@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.CD_label = new System.Windows.Forms.Label();
+            this.Nom_libal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btn_Ville_enregistrer = new System.Windows.Forms.Button();
+            this.btn_effacer = new System.Windows.Forms.Button();
+            this.CD_saisie = new System.Windows.Forms.TextBox();
+            this.btn_fermer = new System.Windows.Forms.Button();
+            this.Nom_saisie = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // CD_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(111, 124);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Code postal :";
+            this.CD_label.AutoSize = true;
+            this.CD_label.Location = new System.Drawing.Point(111, 124);
+            this.CD_label.Name = "CD_label";
+            this.CD_label.Size = new System.Drawing.Size(69, 13);
+            this.CD_label.TabIndex = 0;
+            this.CD_label.Text = "Code postal :";
             // 
-            // label2
+            // Nom_libal
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(142, 161);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nom : ";
+            this.Nom_libal.AutoSize = true;
+            this.Nom_libal.Location = new System.Drawing.Point(142, 161);
+            this.Nom_libal.Name = "Nom_libal";
+            this.Nom_libal.Size = new System.Drawing.Size(38, 13);
+            this.Nom_libal.TabIndex = 1;
+            this.Nom_libal.Text = "Nom : ";
             // 
             // label3
             // 
@@ -66,60 +66,60 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Ajout d\'une ville";
             // 
-            // button1
+            // btn_Ville_enregistrer
             // 
-            this.button1.Location = new System.Drawing.Point(76, 215);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 47);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Enregistrer ville";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Ville_enregistrer.Location = new System.Drawing.Point(76, 215);
+            this.btn_Ville_enregistrer.Name = "btn_Ville_enregistrer";
+            this.btn_Ville_enregistrer.Size = new System.Drawing.Size(104, 47);
+            this.btn_Ville_enregistrer.TabIndex = 3;
+            this.btn_Ville_enregistrer.Text = "Enregistrer ville";
+            this.btn_Ville_enregistrer.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_effacer
             // 
-            this.button2.Location = new System.Drawing.Point(244, 215);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 47);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Effacer champs";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_effacer.Location = new System.Drawing.Point(244, 215);
+            this.btn_effacer.Name = "btn_effacer";
+            this.btn_effacer.Size = new System.Drawing.Size(104, 47);
+            this.btn_effacer.TabIndex = 4;
+            this.btn_effacer.Text = "Effacer champs";
+            this.btn_effacer.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // CD_saisie
             // 
-            this.textBox1.Location = new System.Drawing.Point(248, 117);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.CD_saisie.Location = new System.Drawing.Point(248, 117);
+            this.CD_saisie.Name = "CD_saisie";
+            this.CD_saisie.Size = new System.Drawing.Size(100, 20);
+            this.CD_saisie.TabIndex = 5;
             // 
-            // button3
+            // btn_fermer
             // 
-            this.button3.Location = new System.Drawing.Point(395, 215);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(104, 47);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Fermer";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_fermer.Location = new System.Drawing.Point(395, 215);
+            this.btn_fermer.Name = "btn_fermer";
+            this.btn_fermer.Size = new System.Drawing.Size(104, 47);
+            this.btn_fermer.TabIndex = 7;
+            this.btn_fermer.Text = "Fermer";
+            this.btn_fermer.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // Nom_saisie
             // 
-            this.textBox2.Location = new System.Drawing.Point(248, 154);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
+            this.Nom_saisie.Location = new System.Drawing.Point(248, 154);
+            this.Nom_saisie.Name = "Nom_saisie";
+            this.Nom_saisie.Size = new System.Drawing.Size(100, 20);
+            this.Nom_saisie.TabIndex = 8;
             // 
             // frmVilleAjout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Nom_saisie);
+            this.Controls.Add(this.btn_fermer);
+            this.Controls.Add(this.CD_saisie);
+            this.Controls.Add(this.btn_effacer);
+            this.Controls.Add(this.btn_Ville_enregistrer);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Nom_libal);
+            this.Controls.Add(this.CD_label);
             this.Name = "frmVilleAjout";
             this.Text = "frmVilleAjout";
             this.ResumeLayout(false);
@@ -129,13 +129,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label CD_label;
+        private System.Windows.Forms.Label Nom_libal;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_Ville_enregistrer;
+        private System.Windows.Forms.Button btn_effacer;
+        private System.Windows.Forms.TextBox CD_saisie;
+        private System.Windows.Forms.Button btn_fermer;
+        private System.Windows.Forms.TextBox Nom_saisie;
     }
 }
