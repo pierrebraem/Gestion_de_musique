@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestion_de_musique
 {
-    public partial class frmVilleConsultation : Form
+    public partial class frmVilleSuppression : Form
     {
-        public frmVilleConsultation()
+        public frmVilleSuppression()
         {
             InitializeComponent();
         }
