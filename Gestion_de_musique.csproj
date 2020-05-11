@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmInscription.cs">
+    <Compile Include="frmInscriptionAjout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInscription.Designer.cs">
-      <DependentUpon>frmInscription.cs</DependentUpon>
+    <Compile Include="frmInscriptionAjout.Designer.cs">
+      <DependentUpon>frmInscriptionAjout.cs</DependentUpon>
     </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInscriptionAjout.resx">
+      <DependentUpon>frmInscriptionAjout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

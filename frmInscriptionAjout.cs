@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestion_de_musique
 {
-    public partial class frmInscription : Form
+    public partial class frmInscriptionAjout : Form
     {
-        public frmInscription()
+        public frmInscriptionAjout()
         {
             InitializeComponent();
         }
