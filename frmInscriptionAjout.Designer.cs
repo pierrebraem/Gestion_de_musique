@@ -44,6 +44,41 @@
             this.txtVilleRepresentant = new System.Windows.Forms.TextBox();
             this.lblCodePostalRepresentant = new System.Windows.Forms.Label();
             this.txtCodePostalRepresentant = new System.Windows.Forms.TextBox();
+            this.lblDeuxiemeParent = new System.Windows.Forms.Label();
+            this.btnNouveauDeuxiemeParent = new System.Windows.Forms.Button();
+            this.lblNumeroDeuxiemeParent = new System.Windows.Forms.Label();
+            this.lstNumeroDeuxiemeParent = new System.Windows.Forms.ComboBox();
+            this.lblNomPrenomDeuxiemeParent = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblAdresseDeuxiemeParent = new System.Windows.Forms.Label();
+            this.txtAdresseDeuxiemeParent = new System.Windows.Forms.TextBox();
+            this.lblVilleDeuxiemeParent = new System.Windows.Forms.Label();
+            this.txtVilleDeuxiemeParent = new System.Windows.Forms.TextBox();
+            this.lblCodePostalDeuxiemeParent = new System.Windows.Forms.Label();
+            this.txtCodePostalDeuxiemeParent = new System.Windows.Forms.TextBox();
+            this.lblNombreEnfant = new System.Windows.Forms.Label();
+            this.txtNombreEnfants = new System.Windows.Forms.TextBox();
+            this.lblAdresseCorrespondance = new System.Windows.Forms.Label();
+            this.txtAdresseCorrespondance = new System.Windows.Forms.TextBox();
+            this.lblCodePostalVille = new System.Windows.Forms.Label();
+            this.lstCodePostalVille = new System.Windows.Forms.ComboBox();
+            this.btnNouvelleCodePostalVille = new System.Windows.Forms.Button();
+            this.lblSMS = new System.Windows.Forms.Label();
+            this.txtSMS = new System.Windows.Forms.TextBox();
+            this.lblNumeroAllocataire = new System.Windows.Forms.Label();
+            this.txtCAF = new System.Windows.Forms.TextBox();
+            this.lblSituationFamille = new System.Windows.Forms.Label();
+            this.lstSituationFamille = new System.Windows.Forms.ComboBox();
+            this.btnNouvelleSituation = new System.Windows.Forms.Button();
+            this.lblAutoriteParentale = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnNouvelleAutorite = new System.Windows.Forms.Button();
+            this.lblResponsablePaiement1 = new System.Windows.Forms.Label();
+            this.btnResponsableLegal1 = new System.Windows.Forms.RadioButton();
+            this.btnSecondParent1 = new System.Windows.Forms.RadioButton();
+            this.lblResponsablePaiement2 = new System.Windows.Forms.Label();
+            this.btnResponsableLegal2 = new System.Windows.Forms.RadioButton();
+            this.btnSecondParent2 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // lblAjoutDescription
@@ -174,7 +209,7 @@
             // lblCodePostalRepresentant
             // 
             this.lblCodePostalRepresentant.AutoSize = true;
-            this.lblCodePostalRepresentant.Location = new System.Drawing.Point(334, 227);
+            this.lblCodePostalRepresentant.Location = new System.Drawing.Point(330, 225);
             this.lblCodePostalRepresentant.Name = "lblCodePostalRepresentant";
             this.lblCodePostalRepresentant.Size = new System.Drawing.Size(69, 13);
             this.lblCodePostalRepresentant.TabIndex = 14;
@@ -182,16 +217,355 @@
             // 
             // txtCodePostalRepresentant
             // 
-            this.txtCodePostalRepresentant.Location = new System.Drawing.Point(419, 222);
+            this.txtCodePostalRepresentant.Location = new System.Drawing.Point(408, 218);
             this.txtCodePostalRepresentant.Name = "txtCodePostalRepresentant";
             this.txtCodePostalRepresentant.Size = new System.Drawing.Size(120, 20);
             this.txtCodePostalRepresentant.TabIndex = 15;
+            // 
+            // lblDeuxiemeParent
+            // 
+            this.lblDeuxiemeParent.AutoSize = true;
+            this.lblDeuxiemeParent.Location = new System.Drawing.Point(12, 296);
+            this.lblDeuxiemeParent.Name = "lblDeuxiemeParent";
+            this.lblDeuxiemeParent.Size = new System.Drawing.Size(93, 13);
+            this.lblDeuxiemeParent.TabIndex = 16;
+            this.lblDeuxiemeParent.Text = "Deuxième parent :";
+            // 
+            // btnNouveauDeuxiemeParent
+            // 
+            this.btnNouveauDeuxiemeParent.Location = new System.Drawing.Point(128, 290);
+            this.btnNouveauDeuxiemeParent.Name = "btnNouveauDeuxiemeParent";
+            this.btnNouveauDeuxiemeParent.Size = new System.Drawing.Size(87, 24);
+            this.btnNouveauDeuxiemeParent.TabIndex = 17;
+            this.btnNouveauDeuxiemeParent.Text = "Nouveau";
+            this.btnNouveauDeuxiemeParent.UseVisualStyleBackColor = true;
+            // 
+            // lblNumeroDeuxiemeParent
+            // 
+            this.lblNumeroDeuxiemeParent.AutoSize = true;
+            this.lblNumeroDeuxiemeParent.Location = new System.Drawing.Point(330, 296);
+            this.lblNumeroDeuxiemeParent.Name = "lblNumeroDeuxiemeParent";
+            this.lblNumeroDeuxiemeParent.Size = new System.Drawing.Size(50, 13);
+            this.lblNumeroDeuxiemeParent.TabIndex = 18;
+            this.lblNumeroDeuxiemeParent.Text = "Numéro :";
+            // 
+            // lstNumeroDeuxiemeParent
+            // 
+            this.lstNumeroDeuxiemeParent.FormattingEnabled = true;
+            this.lstNumeroDeuxiemeParent.Location = new System.Drawing.Point(404, 294);
+            this.lstNumeroDeuxiemeParent.Name = "lstNumeroDeuxiemeParent";
+            this.lstNumeroDeuxiemeParent.Size = new System.Drawing.Size(123, 21);
+            this.lstNumeroDeuxiemeParent.TabIndex = 19;
+            // 
+            // lblNomPrenomDeuxiemeParent
+            // 
+            this.lblNomPrenomDeuxiemeParent.AutoSize = true;
+            this.lblNomPrenomDeuxiemeParent.Location = new System.Drawing.Point(15, 336);
+            this.lblNomPrenomDeuxiemeParent.Name = "lblNomPrenomDeuxiemeParent";
+            this.lblNomPrenomDeuxiemeParent.Size = new System.Drawing.Size(74, 13);
+            this.lblNomPrenomDeuxiemeParent.TabIndex = 20;
+            this.lblNomPrenomDeuxiemeParent.Text = "Nom Prénom :";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(103, 333);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(194, 21);
+            this.comboBox1.TabIndex = 21;
+            // 
+            // lblAdresseDeuxiemeParent
+            // 
+            this.lblAdresseDeuxiemeParent.AutoSize = true;
+            this.lblAdresseDeuxiemeParent.Location = new System.Drawing.Point(12, 374);
+            this.lblAdresseDeuxiemeParent.Name = "lblAdresseDeuxiemeParent";
+            this.lblAdresseDeuxiemeParent.Size = new System.Drawing.Size(51, 13);
+            this.lblAdresseDeuxiemeParent.TabIndex = 22;
+            this.lblAdresseDeuxiemeParent.Text = "Adresse :";
+            // 
+            // txtAdresseDeuxiemeParent
+            // 
+            this.txtAdresseDeuxiemeParent.Location = new System.Drawing.Point(103, 367);
+            this.txtAdresseDeuxiemeParent.Name = "txtAdresseDeuxiemeParent";
+            this.txtAdresseDeuxiemeParent.Size = new System.Drawing.Size(194, 20);
+            this.txtAdresseDeuxiemeParent.TabIndex = 23;
+            // 
+            // lblVilleDeuxiemeParent
+            // 
+            this.lblVilleDeuxiemeParent.AutoSize = true;
+            this.lblVilleDeuxiemeParent.Location = new System.Drawing.Point(12, 407);
+            this.lblVilleDeuxiemeParent.Name = "lblVilleDeuxiemeParent";
+            this.lblVilleDeuxiemeParent.Size = new System.Drawing.Size(35, 13);
+            this.lblVilleDeuxiemeParent.TabIndex = 24;
+            this.lblVilleDeuxiemeParent.Text = "Ville : ";
+            // 
+            // txtVilleDeuxiemeParent
+            // 
+            this.txtVilleDeuxiemeParent.Location = new System.Drawing.Point(103, 405);
+            this.txtVilleDeuxiemeParent.Name = "txtVilleDeuxiemeParent";
+            this.txtVilleDeuxiemeParent.Size = new System.Drawing.Size(194, 20);
+            this.txtVilleDeuxiemeParent.TabIndex = 25;
+            // 
+            // lblCodePostalDeuxiemeParent
+            // 
+            this.lblCodePostalDeuxiemeParent.AutoSize = true;
+            this.lblCodePostalDeuxiemeParent.Location = new System.Drawing.Point(329, 405);
+            this.lblCodePostalDeuxiemeParent.Name = "lblCodePostalDeuxiemeParent";
+            this.lblCodePostalDeuxiemeParent.Size = new System.Drawing.Size(70, 13);
+            this.lblCodePostalDeuxiemeParent.TabIndex = 26;
+            this.lblCodePostalDeuxiemeParent.Text = "Code Postal :";
+            // 
+            // txtCodePostalDeuxiemeParent
+            // 
+            this.txtCodePostalDeuxiemeParent.Location = new System.Drawing.Point(408, 402);
+            this.txtCodePostalDeuxiemeParent.Name = "txtCodePostalDeuxiemeParent";
+            this.txtCodePostalDeuxiemeParent.Size = new System.Drawing.Size(120, 20);
+            this.txtCodePostalDeuxiemeParent.TabIndex = 27;
+            // 
+            // lblNombreEnfant
+            // 
+            this.lblNombreEnfant.AutoSize = true;
+            this.lblNombreEnfant.Location = new System.Drawing.Point(12, 450);
+            this.lblNombreEnfant.Name = "lblNombreEnfant";
+            this.lblNombreEnfant.Size = new System.Drawing.Size(144, 13);
+            this.lblNombreEnfant.TabIndex = 28;
+            this.lblNombreEnfant.Text = "Nombre d\'enfants à charge : ";
+            // 
+            // txtNombreEnfants
+            // 
+            this.txtNombreEnfants.Location = new System.Drawing.Point(168, 447);
+            this.txtNombreEnfants.Name = "txtNombreEnfants";
+            this.txtNombreEnfants.Size = new System.Drawing.Size(128, 20);
+            this.txtNombreEnfants.TabIndex = 29;
+            // 
+            // lblAdresseCorrespondance
+            // 
+            this.lblAdresseCorrespondance.AutoSize = true;
+            this.lblAdresseCorrespondance.Location = new System.Drawing.Point(12, 479);
+            this.lblAdresseCorrespondance.Name = "lblAdresseCorrespondance";
+            this.lblAdresseCorrespondance.Size = new System.Drawing.Size(146, 13);
+            this.lblAdresseCorrespondance.TabIndex = 30;
+            this.lblAdresseCorrespondance.Text = "Adresse de correspondance :";
+            // 
+            // txtAdresseCorrespondance
+            // 
+            this.txtAdresseCorrespondance.Location = new System.Drawing.Point(168, 479);
+            this.txtAdresseCorrespondance.Name = "txtAdresseCorrespondance";
+            this.txtAdresseCorrespondance.Size = new System.Drawing.Size(241, 20);
+            this.txtAdresseCorrespondance.TabIndex = 31;
+            // 
+            // lblCodePostalVille
+            // 
+            this.lblCodePostalVille.AutoSize = true;
+            this.lblCodePostalVille.Location = new System.Drawing.Point(12, 510);
+            this.lblCodePostalVille.Name = "lblCodePostalVille";
+            this.lblCodePostalVille.Size = new System.Drawing.Size(90, 13);
+            this.lblCodePostalVille.TabIndex = 32;
+            this.lblCodePostalVille.Text = "Code postal ville :";
+            // 
+            // lstCodePostalVille
+            // 
+            this.lstCodePostalVille.FormattingEnabled = true;
+            this.lstCodePostalVille.Location = new System.Drawing.Point(168, 507);
+            this.lstCodePostalVille.Name = "lstCodePostalVille";
+            this.lstCodePostalVille.Size = new System.Drawing.Size(241, 21);
+            this.lstCodePostalVille.TabIndex = 33;
+            // 
+            // btnNouvelleCodePostalVille
+            // 
+            this.btnNouvelleCodePostalVille.Location = new System.Drawing.Point(442, 507);
+            this.btnNouvelleCodePostalVille.Name = "btnNouvelleCodePostalVille";
+            this.btnNouvelleCodePostalVille.Size = new System.Drawing.Size(76, 22);
+            this.btnNouvelleCodePostalVille.TabIndex = 34;
+            this.btnNouvelleCodePostalVille.Text = "Nouvelle";
+            this.btnNouvelleCodePostalVille.UseVisualStyleBackColor = true;
+            // 
+            // lblSMS
+            // 
+            this.lblSMS.AutoSize = true;
+            this.lblSMS.Location = new System.Drawing.Point(12, 544);
+            this.lblSMS.Name = "lblSMS";
+            this.lblSMS.Size = new System.Drawing.Size(268, 13);
+            this.lblSMS.TabIndex = 35;
+            this.lblSMS.Text = "Téléphone portable prioritaire (pour réception de SMS) :";
+            // 
+            // txtSMS
+            // 
+            this.txtSMS.Location = new System.Drawing.Point(286, 541);
+            this.txtSMS.Name = "txtSMS";
+            this.txtSMS.Size = new System.Drawing.Size(123, 20);
+            this.txtSMS.TabIndex = 36;
+            // 
+            // lblNumeroAllocataire
+            // 
+            this.lblNumeroAllocataire.AutoSize = true;
+            this.lblNumeroAllocataire.Location = new System.Drawing.Point(13, 571);
+            this.lblNumeroAllocataire.Name = "lblNumeroAllocataire";
+            this.lblNumeroAllocataire.Size = new System.Drawing.Size(124, 13);
+            this.lblNumeroAllocataire.TabIndex = 37;
+            this.lblNumeroAllocataire.Text = "Numéro allocataire CAF :";
+            // 
+            // txtCAF
+            // 
+            this.txtCAF.Location = new System.Drawing.Point(143, 568);
+            this.txtCAF.Name = "txtCAF";
+            this.txtCAF.Size = new System.Drawing.Size(142, 20);
+            this.txtCAF.TabIndex = 38;
+            // 
+            // lblSituationFamille
+            // 
+            this.lblSituationFamille.AutoSize = true;
+            this.lblSituationFamille.Location = new System.Drawing.Point(12, 601);
+            this.lblSituationFamille.Name = "lblSituationFamille";
+            this.lblSituationFamille.Size = new System.Drawing.Size(144, 13);
+            this.lblSituationFamille.TabIndex = 39;
+            this.lblSituationFamille.Text = "Situation famille des parents :";
+            // 
+            // lstSituationFamille
+            // 
+            this.lstSituationFamille.FormattingEnabled = true;
+            this.lstSituationFamille.Location = new System.Drawing.Point(168, 594);
+            this.lstSituationFamille.Name = "lstSituationFamille";
+            this.lstSituationFamille.Size = new System.Drawing.Size(139, 21);
+            this.lstSituationFamille.TabIndex = 40;
+            // 
+            // btnNouvelleSituation
+            // 
+            this.btnNouvelleSituation.Location = new System.Drawing.Point(332, 594);
+            this.btnNouvelleSituation.Name = "btnNouvelleSituation";
+            this.btnNouvelleSituation.Size = new System.Drawing.Size(87, 19);
+            this.btnNouvelleSituation.TabIndex = 41;
+            this.btnNouvelleSituation.Text = "Nouvelle";
+            this.btnNouvelleSituation.UseVisualStyleBackColor = true;
+            // 
+            // lblAutoriteParentale
+            // 
+            this.lblAutoriteParentale.AutoSize = true;
+            this.lblAutoriteParentale.Location = new System.Drawing.Point(13, 631);
+            this.lblAutoriteParentale.Name = "lblAutoriteParentale";
+            this.lblAutoriteParentale.Size = new System.Drawing.Size(96, 13);
+            this.lblAutoriteParentale.TabIndex = 42;
+            this.lblAutoriteParentale.Text = "Autorité parentale :";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(168, 623);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(139, 21);
+            this.comboBox2.TabIndex = 43;
+            // 
+            // btnNouvelleAutorite
+            // 
+            this.btnNouvelleAutorite.Location = new System.Drawing.Point(332, 623);
+            this.btnNouvelleAutorite.Name = "btnNouvelleAutorite";
+            this.btnNouvelleAutorite.Size = new System.Drawing.Size(87, 21);
+            this.btnNouvelleAutorite.TabIndex = 44;
+            this.btnNouvelleAutorite.Text = "Nouvelle";
+            this.btnNouvelleAutorite.UseVisualStyleBackColor = true;
+            // 
+            // lblResponsablePaiement1
+            // 
+            this.lblResponsablePaiement1.AutoSize = true;
+            this.lblResponsablePaiement1.Location = new System.Drawing.Point(12, 668);
+            this.lblResponsablePaiement1.Name = "lblResponsablePaiement1";
+            this.lblResponsablePaiement1.Size = new System.Drawing.Size(159, 13);
+            this.lblResponsablePaiement1.TabIndex = 45;
+            this.lblResponsablePaiement1.Text = "1er responsable des paiements :";
+            // 
+            // btnResponsableLegal1
+            // 
+            this.btnResponsableLegal1.AutoSize = true;
+            this.btnResponsableLegal1.Location = new System.Drawing.Point(195, 666);
+            this.btnResponsableLegal1.Name = "btnResponsableLegal1";
+            this.btnResponsableLegal1.Size = new System.Drawing.Size(112, 17);
+            this.btnResponsableLegal1.TabIndex = 46;
+            this.btnResponsableLegal1.TabStop = true;
+            this.btnResponsableLegal1.Text = "Responsable légal";
+            this.btnResponsableLegal1.UseVisualStyleBackColor = true;
+            // 
+            // btnSecondParent1
+            // 
+            this.btnSecondParent1.AutoSize = true;
+            this.btnSecondParent1.Location = new System.Drawing.Point(332, 666);
+            this.btnSecondParent1.Name = "btnSecondParent1";
+            this.btnSecondParent1.Size = new System.Drawing.Size(95, 17);
+            this.btnSecondParent1.TabIndex = 47;
+            this.btnSecondParent1.TabStop = true;
+            this.btnSecondParent1.Text = "Second parent";
+            this.btnSecondParent1.UseVisualStyleBackColor = true;
+            // 
+            // lblResponsablePaiement2
+            // 
+            this.lblResponsablePaiement2.AutoSize = true;
+            this.lblResponsablePaiement2.Location = new System.Drawing.Point(12, 697);
+            this.lblResponsablePaiement2.Name = "lblResponsablePaiement2";
+            this.lblResponsablePaiement2.Size = new System.Drawing.Size(165, 13);
+            this.lblResponsablePaiement2.TabIndex = 48;
+            this.lblResponsablePaiement2.Text = "2nd responsable des paiements : ";
+            // 
+            // btnResponsableLegal2
+            // 
+            this.btnResponsableLegal2.AutoSize = true;
+            this.btnResponsableLegal2.Location = new System.Drawing.Point(195, 693);
+            this.btnResponsableLegal2.Name = "btnResponsableLegal2";
+            this.btnResponsableLegal2.Size = new System.Drawing.Size(112, 17);
+            this.btnResponsableLegal2.TabIndex = 49;
+            this.btnResponsableLegal2.TabStop = true;
+            this.btnResponsableLegal2.Text = "Responsable légal";
+            this.btnResponsableLegal2.UseVisualStyleBackColor = true;
+            // 
+            // btnSecondParent2
+            // 
+            this.btnSecondParent2.AutoSize = true;
+            this.btnSecondParent2.Location = new System.Drawing.Point(332, 693);
+            this.btnSecondParent2.Name = "btnSecondParent2";
+            this.btnSecondParent2.Size = new System.Drawing.Size(95, 17);
+            this.btnSecondParent2.TabIndex = 50;
+            this.btnSecondParent2.TabStop = true;
+            this.btnSecondParent2.Text = "Second parent";
+            this.btnSecondParent2.UseVisualStyleBackColor = true;
             // 
             // frmInscriptionAjout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 753);
+            this.Controls.Add(this.btnSecondParent2);
+            this.Controls.Add(this.btnResponsableLegal2);
+            this.Controls.Add(this.lblResponsablePaiement2);
+            this.Controls.Add(this.btnSecondParent1);
+            this.Controls.Add(this.btnResponsableLegal1);
+            this.Controls.Add(this.lblResponsablePaiement1);
+            this.Controls.Add(this.btnNouvelleAutorite);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.lblAutoriteParentale);
+            this.Controls.Add(this.btnNouvelleSituation);
+            this.Controls.Add(this.lstSituationFamille);
+            this.Controls.Add(this.lblSituationFamille);
+            this.Controls.Add(this.txtCAF);
+            this.Controls.Add(this.lblNumeroAllocataire);
+            this.Controls.Add(this.txtSMS);
+            this.Controls.Add(this.lblSMS);
+            this.Controls.Add(this.btnNouvelleCodePostalVille);
+            this.Controls.Add(this.lstCodePostalVille);
+            this.Controls.Add(this.lblCodePostalVille);
+            this.Controls.Add(this.txtAdresseCorrespondance);
+            this.Controls.Add(this.lblAdresseCorrespondance);
+            this.Controls.Add(this.txtNombreEnfants);
+            this.Controls.Add(this.lblNombreEnfant);
+            this.Controls.Add(this.txtCodePostalDeuxiemeParent);
+            this.Controls.Add(this.lblCodePostalDeuxiemeParent);
+            this.Controls.Add(this.txtVilleDeuxiemeParent);
+            this.Controls.Add(this.lblVilleDeuxiemeParent);
+            this.Controls.Add(this.txtAdresseDeuxiemeParent);
+            this.Controls.Add(this.lblAdresseDeuxiemeParent);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lblNomPrenomDeuxiemeParent);
+            this.Controls.Add(this.lstNumeroDeuxiemeParent);
+            this.Controls.Add(this.lblNumeroDeuxiemeParent);
+            this.Controls.Add(this.btnNouveauDeuxiemeParent);
+            this.Controls.Add(this.lblDeuxiemeParent);
             this.Controls.Add(this.txtCodePostalRepresentant);
             this.Controls.Add(this.lblCodePostalRepresentant);
             this.Controls.Add(this.txtVilleRepresentant);
@@ -209,7 +583,7 @@
             this.Controls.Add(this.lblCleWallonnienne);
             this.Controls.Add(this.lblAjoutDescription);
             this.Name = "frmInscriptionAjout";
-            this.Text = "frmInscription";
+            this.Text = "Inscription ajout";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,5 +607,40 @@
         private System.Windows.Forms.TextBox txtVilleRepresentant;
         private System.Windows.Forms.Label lblCodePostalRepresentant;
         private System.Windows.Forms.TextBox txtCodePostalRepresentant;
+        private System.Windows.Forms.Label lblDeuxiemeParent;
+        private System.Windows.Forms.Button btnNouveauDeuxiemeParent;
+        private System.Windows.Forms.Label lblNumeroDeuxiemeParent;
+        private System.Windows.Forms.ComboBox lstNumeroDeuxiemeParent;
+        private System.Windows.Forms.Label lblNomPrenomDeuxiemeParent;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblAdresseDeuxiemeParent;
+        private System.Windows.Forms.TextBox txtAdresseDeuxiemeParent;
+        private System.Windows.Forms.Label lblVilleDeuxiemeParent;
+        private System.Windows.Forms.TextBox txtVilleDeuxiemeParent;
+        private System.Windows.Forms.Label lblCodePostalDeuxiemeParent;
+        private System.Windows.Forms.TextBox txtCodePostalDeuxiemeParent;
+        private System.Windows.Forms.Label lblNombreEnfant;
+        private System.Windows.Forms.TextBox txtNombreEnfants;
+        private System.Windows.Forms.Label lblAdresseCorrespondance;
+        private System.Windows.Forms.TextBox txtAdresseCorrespondance;
+        private System.Windows.Forms.Label lblCodePostalVille;
+        private System.Windows.Forms.ComboBox lstCodePostalVille;
+        private System.Windows.Forms.Button btnNouvelleCodePostalVille;
+        private System.Windows.Forms.Label lblSMS;
+        private System.Windows.Forms.TextBox txtSMS;
+        private System.Windows.Forms.Label lblNumeroAllocataire;
+        private System.Windows.Forms.TextBox txtCAF;
+        private System.Windows.Forms.Label lblSituationFamille;
+        private System.Windows.Forms.ComboBox lstSituationFamille;
+        private System.Windows.Forms.Button btnNouvelleSituation;
+        private System.Windows.Forms.Label lblAutoriteParentale;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnNouvelleAutorite;
+        private System.Windows.Forms.Label lblResponsablePaiement1;
+        private System.Windows.Forms.RadioButton btnResponsableLegal1;
+        private System.Windows.Forms.RadioButton btnSecondParent1;
+        private System.Windows.Forms.Label lblResponsablePaiement2;
+        private System.Windows.Forms.RadioButton btnResponsableLegal2;
+        private System.Windows.Forms.RadioButton btnSecondParent2;
     }
 }
