@@ -16,5 +16,10 @@ namespace Gestion_de_musique
         {
             InitializeComponent();
         }
+
+        private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
