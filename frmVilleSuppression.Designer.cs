@@ -176,6 +176,7 @@
             this.Controls.Add(this.label3);
             this.Name = "frmVilleSuppression";
             this.Text = "frmVilleSuppression";
+            this.Load += new System.EventHandler(this.FrmVilleSuppression_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

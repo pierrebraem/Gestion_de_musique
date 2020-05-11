@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Gestion_de_musique
 {
-    public partial class frmVilleSuppression : Form
+    public partial class frmVilleModification : Form
     {
-        public frmVilleSuppression()
+        public frmVilleModification()
         {
             InitializeComponent();
-        }
-
-        private void FrmVilleSuppression_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
