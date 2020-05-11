@@ -91,6 +91,7 @@
             this.txtVilleMedecin = new System.Windows.Forms.TextBox();
             this.lblCodePostalMedecin = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblEtablissementScolaire = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblAjoutDescription
@@ -638,11 +639,21 @@
             this.textBox2.Size = new System.Drawing.Size(123, 20);
             this.textBox2.TabIndex = 62;
             // 
+            // lblEtablissementScolaire
+            // 
+            this.lblEtablissementScolaire.AutoSize = true;
+            this.lblEtablissementScolaire.Location = new System.Drawing.Point(16, 908);
+            this.lblEtablissementScolaire.Name = "lblEtablissementScolaire";
+            this.lblEtablissementScolaire.Size = new System.Drawing.Size(123, 13);
+            this.lblEtablissementScolaire.TabIndex = 63;
+            this.lblEtablissementScolaire.Text = "Etablisement hospitalier :";
+            // 
             // frmInscriptionAjout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 957);
+            this.ClientSize = new System.Drawing.Size(800, 1061);
+            this.Controls.Add(this.lblEtablissementScolaire);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblCodePostalMedecin);
             this.Controls.Add(this.txtVilleMedecin);
@@ -778,5 +789,6 @@
         private System.Windows.Forms.TextBox txtVilleMedecin;
         private System.Windows.Forms.Label lblCodePostalMedecin;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblEtablissementScolaire;
     }
 }
