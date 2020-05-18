@@ -58,6 +58,12 @@
     <Compile Include="frmInstrumentConsultation.Designer.cs">
       <DependentUpon>frmInstrumentConsultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInstrumentSuppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstrumentSuppression.Designer.cs">
+      <DependentUpon>frmInstrumentSuppression.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInstrumentConsultation.resx">
       <DependentUpon>frmInstrumentConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstrumentSuppression.resx">
+      <DependentUpon>frmInstrumentSuppression.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
