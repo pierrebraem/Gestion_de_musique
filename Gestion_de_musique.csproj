@@ -58,6 +58,12 @@
     <Compile Include="frmInscriptionConsultation.Designer.cs">
       <DependentUpon>frmInscriptionConsultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInscriptionModifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscriptionModifier.Designer.cs">
+      <DependentUpon>frmInscriptionModifier.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInscriptionSupprimer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInscriptionConsultation.resx">
       <DependentUpon>frmInscriptionConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscriptionModifier.resx">
+      <DependentUpon>frmInscriptionModifier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInscriptionSupprimer.resx">
       <DependentUpon>frmInscriptionSupprimer.cs</DependentUpon>
