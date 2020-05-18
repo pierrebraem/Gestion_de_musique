@@ -64,6 +64,12 @@
     <Compile Include="frmSituation_familleModification.Designer.cs">
       <DependentUpon>frmSituation_familleModification.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmsituation_familleSuppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsituation_familleSuppression.Designer.cs">
+      <DependentUpon>frmsituation_familleSuppression.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSituation_familleModification.resx">
       <DependentUpon>frmSituation_familleModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsituation_familleSuppression.resx">
+      <DependentUpon>frmsituation_familleSuppression.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
