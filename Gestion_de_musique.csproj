@@ -64,12 +64,6 @@
     <Compile Include="frmEcoleModification.Designer.cs">
       <DependentUpon>frmEcoleModification.cs</DependentUpon>
     </Compile>
-    <Compile Include="mnuMenuPrincipale.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mnuMenuPrincipale.Designer.cs">
-      <DependentUpon>mnuMenuPrincipale.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEcoleAjout.resx">
