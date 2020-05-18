@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmSituation_familleAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSituation_familleAjout.Designer.cs">
+      <DependentUpon>frmSituation_familleAjout.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSituation_familleConsultation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmSituation_familleAjout.resx">
+      <DependentUpon>frmSituation_familleAjout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSituation_familleConsultation.resx">
       <DependentUpon>frmSituation_familleConsultation.cs</DependentUpon>
     </EmbeddedResource>
