@@ -58,6 +58,12 @@
     <Compile Include="frmAutorite_parentaleConsultation.Designer.cs">
       <DependentUpon>frmAutorite_parentaleConsultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAutorite_parentaleModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutorite_parentaleModification.Designer.cs">
+      <DependentUpon>frmAutorite_parentaleModification.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAutorite_parentaleConsultation.resx">
       <DependentUpon>frmAutorite_parentaleConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutorite_parentaleModification.resx">
+      <DependentUpon>frmAutorite_parentaleModification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
