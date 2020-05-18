@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frminstrumentAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminstrumentAjout.Designer.cs">
+      <DependentUpon>frminstrumentAjout.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frminstrumentAjout.resx">
+      <DependentUpon>frminstrumentAjout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
