@@ -58,6 +58,12 @@
     <Compile Include="frmEcoleConsultation.Designer.cs">
       <DependentUpon>frmEcoleConsultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEcoleModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEcoleModification.Designer.cs">
+      <DependentUpon>frmEcoleModification.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEcoleConsultation.resx">
       <DependentUpon>frmEcoleConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEcoleModification.resx">
+      <DependentUpon>frmEcoleModification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
