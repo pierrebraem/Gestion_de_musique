@@ -64,6 +64,12 @@
     <Compile Include="frmEcoleModification.Designer.cs">
       <DependentUpon>frmEcoleModification.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEcoleSuppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEcoleSuppression.Designer.cs">
+      <DependentUpon>frmEcoleSuppression.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmEcoleAjout.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEcoleModification.resx">
       <DependentUpon>frmEcoleModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEcoleSuppression.resx">
+      <DependentUpon>frmEcoleSuppression.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
