@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Gestion_de_musique
 {
-    public partial class frmInstrumentConsultation : Form
+    public partial class frmInstrumentModification : Form
     {
-        public frmInstrumentConsultation()
+        public frmInstrumentModification()
         {
             InitializeComponent();
         }
 
-        private void FrmInstrumentConsultation_Load(object sender, EventArgs e)
+        private void FrmInstrumentModification_Load(object sender, EventArgs e)
         {
 
         }

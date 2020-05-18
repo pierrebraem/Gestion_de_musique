@@ -58,6 +58,12 @@
     <Compile Include="frmInstrumentConsultation.Designer.cs">
       <DependentUpon>frmInstrumentConsultation.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInstrumentModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstrumentModification.Designer.cs">
+      <DependentUpon>frmInstrumentModification.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInstrumentSuppression.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInstrumentConsultation.resx">
       <DependentUpon>frmInstrumentConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstrumentModification.resx">
+      <DependentUpon>frmInstrumentModification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInstrumentSuppression.resx">
       <DependentUpon>frmInstrumentSuppression.cs</DependentUpon>
