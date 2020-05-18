@@ -52,6 +52,12 @@
     <Compile Include="frmInscriptionAjout.Designer.cs">
       <DependentUpon>frmInscriptionAjout.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInscriptionConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscriptionConsultation.Designer.cs">
+      <DependentUpon>frmInscriptionConsultation.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmInscriptionAjout.resx">
       <DependentUpon>frmInscriptionAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscriptionConsultation.resx">
+      <DependentUpon>frmInscriptionConsultation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
