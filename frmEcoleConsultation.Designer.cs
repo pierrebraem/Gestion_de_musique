@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Nom_saisie = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.Nom_label = new System.Windows.Forms.Label();
-            this.CD_saisie = new System.Windows.Forms.TextBox();
-            this.CD_label = new System.Windows.Forms.Label();
+            this.libelle_saisie = new System.Windows.Forms.TextBox();
+            this.libelle_label = new System.Windows.Forms.Label();
             this.btn_fermer = new System.Windows.Forms.Button();
             this.btn_première = new System.Windows.Forms.Button();
             this.btn_precedent = new System.Windows.Forms.Button();
@@ -40,14 +38,12 @@
             this.btn_derniere = new System.Windows.Forms.Button();
             this.Numero_label = new System.Windows.Forms.Label();
             this.Numero_list = new System.Windows.Forms.ComboBox();
+            this.tab_matiere = new System.Windows.Forms.DataGridView();
+            this.Numéro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Libellé = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Matiere_label = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.tab_matiere)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Nom_saisie
-            // 
-            this.Nom_saisie.Location = new System.Drawing.Point(263, 196);
-            this.Nom_saisie.Name = "Nom_saisie";
-            this.Nom_saisie.Size = new System.Drawing.Size(100, 20);
-            this.Nom_saisie.TabIndex = 10;
             // 
             // label3
             // 
@@ -59,30 +55,22 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Consultation d\'une école";
             // 
-            // Nom_label
+            // libelle_saisie
             // 
-            this.Nom_label.AutoSize = true;
-            this.Nom_label.Location = new System.Drawing.Point(196, 199);
-            this.Nom_label.Name = "Nom_label";
-            this.Nom_label.Size = new System.Drawing.Size(35, 13);
-            this.Nom_label.TabIndex = 8;
-            this.Nom_label.Text = "Nom :";
+            this.libelle_saisie.Location = new System.Drawing.Point(263, 150);
+            this.libelle_saisie.Name = "libelle_saisie";
+            this.libelle_saisie.Size = new System.Drawing.Size(281, 20);
+            this.libelle_saisie.TabIndex = 7;
             // 
-            // CD_saisie
+            // libelle_label
             // 
-            this.CD_saisie.Location = new System.Drawing.Point(263, 150);
-            this.CD_saisie.Name = "CD_saisie";
-            this.CD_saisie.Size = new System.Drawing.Size(100, 20);
-            this.CD_saisie.TabIndex = 7;
-            // 
-            // CD_label
-            // 
-            this.CD_label.AutoSize = true;
-            this.CD_label.Location = new System.Drawing.Point(162, 153);
-            this.CD_label.Name = "CD_label";
-            this.CD_label.Size = new System.Drawing.Size(69, 13);
-            this.CD_label.TabIndex = 6;
-            this.CD_label.Text = "Code postal :";
+            this.libelle_label.AutoSize = true;
+            this.libelle_label.Location = new System.Drawing.Point(192, 153);
+            this.libelle_label.Name = "libelle_label";
+            this.libelle_label.Size = new System.Drawing.Size(39, 13);
+            this.libelle_label.TabIndex = 6;
+            this.libelle_label.Text = "libellé :";
+            this.libelle_label.Click += new System.EventHandler(this.CD_label_Click);
             // 
             // btn_fermer
             // 
@@ -147,11 +135,44 @@
             this.Numero_list.Size = new System.Drawing.Size(121, 21);
             this.Numero_list.TabIndex = 17;
             // 
+            // tab_matiere
+            // 
+            this.tab_matiere.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tab_matiere.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Numéro,
+            this.Libellé});
+            this.tab_matiere.Location = new System.Drawing.Point(195, 216);
+            this.tab_matiere.Name = "tab_matiere";
+            this.tab_matiere.Size = new System.Drawing.Size(244, 46);
+            this.tab_matiere.TabIndex = 18;
+            // 
+            // Numéro
+            // 
+            this.Numéro.HeaderText = "Numéro";
+            this.Numéro.Name = "Numéro";
+            // 
+            // Libellé
+            // 
+            this.Libellé.HeaderText = "Libellé";
+            this.Libellé.Name = "Libellé";
+            // 
+            // Matiere_label
+            // 
+            this.Matiere_label.AutoSize = true;
+            this.Matiere_label.Location = new System.Drawing.Point(192, 200);
+            this.Matiere_label.Name = "Matiere_label";
+            this.Matiere_label.Size = new System.Drawing.Size(53, 13);
+            this.Matiere_label.TabIndex = 19;
+            this.Matiere_label.Text = "Matières :";
+            this.Matiere_label.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // frmEcoleConsultation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Matiere_label);
+            this.Controls.Add(this.tab_matiere);
             this.Controls.Add(this.Numero_list);
             this.Controls.Add(this.Numero_label);
             this.Controls.Add(this.btn_derniere);
@@ -159,25 +180,21 @@
             this.Controls.Add(this.btn_precedent);
             this.Controls.Add(this.btn_première);
             this.Controls.Add(this.btn_fermer);
-            this.Controls.Add(this.Nom_saisie);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.Nom_label);
-            this.Controls.Add(this.CD_saisie);
-            this.Controls.Add(this.CD_label);
+            this.Controls.Add(this.libelle_saisie);
+            this.Controls.Add(this.libelle_label);
             this.Name = "frmEcoleConsultation";
             this.Text = "frmEcoleConsultation";
+            ((System.ComponentModel.ISupportInitialize)(this.tab_matiere)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox Nom_saisie;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label Nom_label;
-        private System.Windows.Forms.TextBox CD_saisie;
-        private System.Windows.Forms.Label CD_label;
+        private System.Windows.Forms.TextBox libelle_saisie;
+        private System.Windows.Forms.Label libelle_label;
         private System.Windows.Forms.Button btn_fermer;
         private System.Windows.Forms.Button btn_première;
         private System.Windows.Forms.Button btn_precedent;
@@ -185,5 +202,9 @@
         private System.Windows.Forms.Button btn_derniere;
         private System.Windows.Forms.Label Numero_label;
         private System.Windows.Forms.ComboBox Numero_list;
+        private System.Windows.Forms.DataGridView tab_matiere;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Numéro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Libellé;
+        private System.Windows.Forms.Label Matiere_label;
     }
 }
