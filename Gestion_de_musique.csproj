@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmSituation_familleConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSituation_familleConsultation.Designer.cs">
+      <DependentUpon>frmSituation_familleConsultation.cs</DependentUpon>
+    </Compile>
     <Compile Include="mnuMenuPrincipale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmSituation_familleConsultation.resx">
+      <DependentUpon>frmSituation_familleConsultation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
